@@ -2,7 +2,7 @@
   "name": "yathra",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://joshuajosephvaidyan.github.io/Yathra",
+  "homepage": "https://joshuajosephvaidyan.github.io/Yathra",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
