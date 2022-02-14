@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Yathra/static/css/main.0256c511.css",
+    "main.js": "/Yathra/static/js/main.06f015d2.js",
+    "static/js/787.468b054a.chunk.js": "/Yathra/static/js/787.468b054a.chunk.js",
+    "static/media/LandingPageImage2.jpg": "/Yathra/static/media/LandingPageImage2.40233499884ebbc4ef1a.jpg",
+    "static/media/SigninImg.jpg": "/Yathra/static/media/SigninImg.f553f955f10d1465a531.jpg",
+    "static/media/SignUpImg.jpg": "/Yathra/static/media/SignUpImg.c60133009d6400c3e366.jpg",
+    "static/media/LandingPageImage1.jpg": "/Yathra/static/media/LandingPageImage1.5b7e799fc300f17797c2.jpg",
+    "static/media/happyearth.png": "/Yathra/static/media/happyearth.d8bf8e69c5e0669c5a9a.png",
+    "static/media/sedan.jpg": "/Yathra/static/media/sedan.c5fff70ff27b93f4b3f7.jpg",
+    "static/media/hatchback.jpg": "/Yathra/static/media/hatchback.f87314b3ed6ad07f105d.jpg",
+    "static/media/SUV.jpg": "/Yathra/static/media/SUV.d329ca2434d58aeecc32.jpg",
+    "index.html": "/Yathra/index.html",
+    "main.0256c511.css.map": "/Yathra/static/css/main.0256c511.css.map",
+    "main.06f015d2.js.map": "/Yathra/static/js/main.06f015d2.js.map",
+    "787.468b054a.chunk.js.map": "/Yathra/static/js/787.468b054a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0256c511.css",
+    "static/js/main.06f015d2.js"
+  ]
+}
