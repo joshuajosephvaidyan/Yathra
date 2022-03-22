@@ -2,9 +2,10 @@ import React from 'react'
 import NavBarSign from '../components/NavBarSign'
 import { Container, Row, Col, InputGroup, FormControl, Button } from 'react-bootstrap'
 import Footer from '../components/Footer'
-import {Link} from 'react-router-dom'
+import {Link, useHistory} from 'react-router-dom'
 
 function SignIn() {
+  let history = useHistory(); 
   return (
     <>
        <NavBarSign />
@@ -29,7 +30,10 @@ function SignIn() {
                         type='password'
                         />
                      </InputGroup>
-                     <Button style={{backgroundColor:'#5284B8',borderColor:'#5284B8'}} className='ps-4 pe-4 mt-2 mb-2'>Sign In</Button>
+                     <Button style={{backgroundColor:'#5284B8',borderColor:'#5284B8'}} className='ps-4 pe-4 mt-2 mb-2'
+                      onClick={()=>{history.push('/')}}>
+                         Sign In
+                     </Button>
                      <div style={{color:'#726767',fontSize:'small'}} className='mt-3'>
                         Or if you don’t have an account <Link to="/SignUp" style={{color:'inherit',textDecoration:'none',fontStyle:'italic'}}>SignUp</Link>
                      </div>

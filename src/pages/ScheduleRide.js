@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Row, Container, Col, Button, InputGroup, FormControl} from 'react-bootstrap'
 import ICard from '../components/ICard'
 import {Link} from 'react-router-dom';
+import '../stylesheets/scrollbar.css';
 
 function ScheduleRide() {
    const [type,settype] = useState('');
@@ -14,8 +15,8 @@ function ScheduleRide() {
                  width="100%" height="100%" title="map" style={{border:'0',margin:'0',postion:'relative'}}></iframe>
                </Col>
 
-               <Col md={4} style={{height:'100vh',margin:'0',padding:'0'}} className='d-flex align-items-center justify-content-center'>
-               <div className="d-block" style={{width:'90%'}}>
+               <Col md={4} style={{height:'100vh',margin:'0',paddingTop:'10px',overflow:'scroll',overflowX:'hidden'}} className='d-flex justify-content-center'>
+               <div className="d-block" style={{width:'100%'}}>
                  <div className="d-flex justify-content-between">
                   <Link to="/"> 
                     <Button style={{backgroundColor:'#C5EFF7',borderColor:'#C5EFF7'}}>
@@ -86,15 +87,17 @@ function ScheduleRide() {
                       </Button>
                  </div>   
                  <div> 
-                    <div class="d-flex">      
-                        <InputGroup className="me-1" >
+                    <div class="mt-2">      
+                        <InputGroup className="" >
                                         <FormControl
                                         placeholder="Vehicle Brand"
                                         aria-label="VehicleBrand"
                                         aria-describedby="basic-addon1"
                                         />
                         </InputGroup>
-                        <InputGroup className="ms-1" >
+                    </div> 
+                    <div class="mt-2">   
+                        <InputGroup className="" >
                                         <FormControl
                                         placeholder="Vehicle Model"
                                         aria-label="VehicleModel"
@@ -102,15 +105,17 @@ function ScheduleRide() {
                                         />
                         </InputGroup>
                     </div> 
-                    <div className="d-flex mt-2">
-                        <InputGroup className="me-1" >
+                    <div className="mt-2">
+                        <InputGroup className="" >
                                         <FormControl
                                         placeholder="Color"
                                         aria-label="Vehicle Color"
                                         aria-describedby="basic-addon1"
                                         />
                         </InputGroup>
-                        <InputGroup className="ms-1" >
+                    </div>  
+                    <div className="mt-2">  
+                        <InputGroup className="" >
                                         <FormControl
                                         placeholder="Reg No"
                                         aria-label="RegNo"
@@ -129,7 +134,7 @@ function ScheduleRide() {
                         <div style={{fontSize:'medium'}}>Rs 5</div>
                      </div>
                  </div>
-                 <Button className="btn-warning" style={{backgroundColor:'#FAE953',borderColor:'#FAE953',color:'#000',width:'100%'}}>Schedule A Ride</Button>
+                 <Button className="btn-warning mb-2" style={{backgroundColor:'#FAE953',borderColor:'#FAE953',color:'#000',width:'100%'}}>Schedule A Ride</Button>
                </div>
                </Col>
             </Row>
